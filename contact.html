@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact details</title>
+  </head>
+  <body>
+    <h3>My contact details</h3>
+    <sub><a href="https://www.linkedin.com/in/andrea-avenant/">LinkedIn</a></sub>
+    <br>
+    <sub><a href="mailto:andreaavenant@gmail.com">Email</a></sub>
+    <br>
+    <sub><a href="tel: +27722753169">Phone</a></sub>
+    <br>
+    <hr size="2" noshade>
+    <br>
+    <h3>Send me a message</h3>
+    <p><em>Fill in the form with a message and your contact details and I will respond to your request.</em></p>
+    <form action="mailto:andreaavenant@gmail.com" method="post" enctype="text/plain">
+      <table cellspacing = "10">
+        <tr>
+          <td><label for="FirstName">First Name:</label></td>
+          <td><input type="text" name="FirstName" value="" required></td>
+        </tr>
+        <tr>
+          <td><label for="LastName">Last Name:</label></td>
+          <td><input type="text" name="LastName" value=""></td>
+        </tr>
+        <tr>
+          <td><label for="Email">Email address</label></td>
+          <td><input type="email" name="Email" value="" required></td>
+        </tr>
+      </table>
+      <br>
+      <label for="Message">Type your message here:</label>
+      <br>
+      <textarea name="Message" rows="10" cols="30"></textarea>
+      <br>
+      <input type="submit" value="Submit message">
+    </form>
+
+
+
+
+
+  </body>
+</html>
